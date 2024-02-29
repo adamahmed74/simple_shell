@@ -73,4 +73,3 @@ char *err_127(char **args)
 	_strcat(err, ": not found\n");
 	free(hist_str);
 	return (err);
-}
