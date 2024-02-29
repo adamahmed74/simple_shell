@@ -95,4 +95,3 @@ int proc_file_cmds(char *file_path, int *exe_ret)
 	ret = call_args(args, f, exe_ret);
 	free(f);
 	return (ret);
-}
